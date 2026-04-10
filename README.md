@@ -1,12 +1,16 @@
   # CDPR: Cross-modal Diffusion with Polarization for Reliable Monocular Depth Estimation
 **IEEE TMM 2026**
 
+![pipeline](https://github.com/user-attachments/assets/f58294e4-ccfc-4f63-a711-3c6748539d28)
+
 This repository contains the source code of our paper **CDPR: Cross-modal Diffusion with Polarization for Reliable Monocular Depth Estimation**.
 
 - `CDPR-original` corresponds to the `depth` version in this repository.
 - `CDPR-accelerated` corresponds to the `depth_v1` version in this repository.
 
+
 ## Environment
+
 
 The project was implemented with:
 
