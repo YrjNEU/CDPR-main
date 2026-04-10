@@ -1,0 +1,23 @@
+dataset:
+  val:
+  - name: hyperPol
+    disp_name: hyperPol_val
+    dir: hyperPol/processed/val
+    filenames: data_split/hyperPol/filename_list_val_filtered_pol.txt
+    resize_to_hw:
+    - 768
+    - 1024
+  - name: hammer
+    disp_name: hammer_val
+    dir: hammer/processed_data
+    filenames: data_split/hammer/val_list.txt
+    resize_to_hw:
+    - 768
+    - 1024
+  - name: HouseCat6D
+    disp_name: HouseCat6D_val
+    dir: HouseCat6D/processed
+    filenames: data_split/HouseCat6D/test_clean_depth.txt
+    resize_to_hw:
+    - 852
+    - 1096
