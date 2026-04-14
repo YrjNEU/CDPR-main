@@ -157,3 +157,21 @@ python evaluate.py \
 
 - This repository does not include trained model weights or the Stable Diffusion base checkpoint.
 - To reproduce experiments directly, place your own `CDPR-polCNN` or `CDPR-polCNNv1` checkpoint under `checkpoint/depth/`, or pass the real checkpoint path on the command line.
+
+## Citation
+
+If you find our work valuable, please cite our paper:
+
+```bibtex
+@misc{yu2026cdprcrossmodaldiffusionpolarization,
+      title={CDPR: Cross-modal Diffusion with Polarization for Reliable Monocular Depth Estimation}, 
+      author={Rongjia Yu and Tong Jia and Hao Wang and Xiaofang Li and Xiao Yang and Zinuo Zhang and Cuiwei Liu},
+      year={2026},
+      eprint={2604.11097},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.11097}, 
+}
+```
+
+
